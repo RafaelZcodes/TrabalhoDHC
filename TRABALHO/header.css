@@ -1,0 +1,48 @@
+header{
+    background-image:linear-gradient(to right, rgba(153, 1, 1, 0.993), rgb(173, 7, 7),rgb(216, 117, 117)) ;
+    display: flex;
+    grid-area: header;
+    height: 100px;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px;
+    color: white;  
+    font-family:'Times New Roman', Times, serif ;
+    
+}
+header p {
+    text-shadow: 3px 2px black;
+    font-size: 30px;
+}
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 30px;
+}
+.logo{
+    display: flex;
+    background: white;
+    width: 100px;
+    height: 100px;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+img{
+    display: flex;
+    width: 200px;
+    height: 100px;
+       
+}
+header a{
+    color: white;
+    text-decoration: none;
+
+}
+header a:hover{
+    color: black;
+
+}

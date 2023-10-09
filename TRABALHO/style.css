@@ -1,0 +1,119 @@
+.conteiner{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'esquerdo main main'
+    'footer footer footer'
+    ;
+
+}
+
+
+
+
+section h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+    
+    
+
+}
+section p{
+    font-style: Times;
+    font-size: 25px;
+    margin: 15px;
+    text-align: justify;
+}
+
+section h3{
+    display: flex;
+    margin: 45px;
+    width: 500px;
+    height: 30px;
+    background-color: rgba(153, 1, 1, 0.993);
+    background-image:linear-gradient( to right, rgba(153, 1, 1, 0.993),rgba(235, 46, 46, 0.712) , white);
+    color: white;
+    text-align: center;
+    align-items:center;
+padding: 10px;
+    
+    
+}
+
+/*=======================LISTA DE DICAS======================= */
+section ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    font-size: 20px;
+    font-style: Times;
+    
+    
+}
+section  li{
+ padding: 10px;
+ text-align: center;
+
+}
+/*=======================LISTA DE DICAS======================= */
+
+/*=======================LISTA DE APPS======================= */
+
+section ol li{
+    list-style: none;
+    text-align: center;
+    background-color:  rgba(153, 1, 1, 0.993);
+    width: 180px;
+    
+}
+
+li a:hover{
+    
+    color: black;
+}
+
+section ol { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+li a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+/*=======================LISTA DE APPS======================= */
+
+
+h3 a{
+    text-decoration: none;
+    margin: 11px;
+    text-align: center;
+    color: white;
+}
+
+h3 a:hover{
+    color: black;
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+@media (max-width: 768px) {
+
+    .conteiner{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'esquerdo esquerdo'
+    'main main'
+    'footer footer'
+    ;
+    margin: 0 auto;
+    
+    }
+
+}

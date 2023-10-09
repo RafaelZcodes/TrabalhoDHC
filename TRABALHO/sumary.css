@@ -1,0 +1,58 @@
+main{
+   grid-area: main;
+   height: 100%;
+}
+
+nav p{
+    align-self: center;
+    text-align: center;
+    
+}
+
+/*---------------- NAV STYLE ---------------------------*/
+
+.esquerdo P{
+    margin: 25px;
+    font-style: TIMES;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.esquerdo{
+    background: darkgray;
+    grid-area: esquerdo;
+    height: 100%;
+    width: 300px;
+
+}
+.esquerdo ol{
+    /* position: fixed; */
+    left: 0;
+    padding: 30px;
+
+}
+ol li{   
+   padding:20px 30px ;
+   margin: 10px 0;
+   background-color: rgba(153, 1, 1, 0.993);
+   width: 180px;
+   
+}
+ol img{
+width: 100px;
+height: 100px;
+}
+
+.esquerdo a{
+    color: white;
+    text-transform:capitalize;
+    
+    
+}
+
+.esquerdo a:hover{
+    color: black;
+}
+
+/*---------------- NAV STYLE ---------------------------*/
+

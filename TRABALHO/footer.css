@@ -1,0 +1,15 @@
+footer{
+
+    background-image:linear-gradient(to right, rgba(153, 1, 1, 0.993), rgb(173, 7, 7),rgb(216, 117, 117)) ;
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    /* margin: 10px; */
+    justify-content: space-around;
+    color: white;
+    height: 80px;
+    width: 100%;
+    font-style: Times;
+    font-size: 18px;
+
+}
